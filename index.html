@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin="anonymous" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+			crossorigin="anonymous" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			crossorigin="anonymous"></script>
+		<title>Bootstrap Portfolio</title>
+	</head>
+	<body>
+		<!-- Header -->
+
+		<header class="container mt-3">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container-fluid">
+					<a class="navbar-brand fw-bold text-primary"  href="#">My Logo</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link text-secondary" aria-current="page" href="#"
+									>Portfolio</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-secondary" href="#">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-secondary" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Main Section -->
+
+		<main class="d-flex flex-column align-items-center align-items-center bg-light">
+			<!-- Hero Section -->
+
+			<section class="bg-white w-100">
+				<div class="container mb-5 mt-4 p-5">
+					<h1 class="fs-1">I'm Hafizullah.<br />Glad to see you!</h1>
+
+					<p class="fs-5">
+						I'm a software developer! I can help you build a product , feature
+						or website Look through some of my work and experience! If you like
+						what you see and have a project you need coded, don't hesitate to
+						contact me.
+					</p>
+
+					<p class="fs-4 text-primary">Let's connect</p>
+
+					<ul class="d-flex gap-3 ps-0 list-unstyled">
+						<li>
+							<a href="https://twitter.com">
+								<img src="./pictures/twitter.svg" alt="Twitter-icon" />
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.linkedin.com">
+								<img src="./pictures/linkedin.svg" alt="LinkedIn-icon" />
+							</a>
+						</li>
+
+						<li>
+							<a href="https://medium.com/">
+								<img src="./pictures/medium.svg" alt="Medium-icon" />
+							</a>
+						</li>
+
+						<li>
+							<a href="https://github.com">
+								<img src="./pictures/github.svg" alt="GitHub-icon" />
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.angellist.com/">
+								<img src="./pictures/angellist.svg" alt="AngelList-icon" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Work Section -->
+
+			<section class="col col-md-10 row gy-5 mb-5 mt-1 bg-light" id="portfolio">
+				<!-- Card 1 -->
+
+				<article class="d-flex flex-column flex-md-row  bg-white p-3 rounded-3 align-items-center">
+					<img class="col-10 col-md-6" src="./pictures/work1.png" alt="placeholder-img" />
+					<div class="col-10 col-md-6">
+							<div class="d-flex flex-column gap-3 p-3">
+						<h3>Tonic</h3>
+
+						<div class="d-flex gap-3">
+							<h4>Canopy</h4>
+							<h4 class="text-dark">
+								<span>●</span>
+
+								Back End Dev
+							</h4>
+
+							<h4 class="text-dark">
+								<span>●</span>
+
+								2015
+							</h4>
+						</div>
+
+						<p>
+							A daily selection of privately personalized reads; no accounts or
+							sign-ups required.
+						</p>
+
+						<ul class="d-flex gap-2 list-unstyled">
+							<li class="bg-light">HTML</li>
+							<li class="bg-light">CSS</li>
+							<li class="bg-light">JavaScript</li>
+						</ul>
+						<a href="/" class="btn bg-white text-primary border-primary link"> See project </a>
+					</div>
+					</div>
+				
+				</article>
+
+				<!-- Card 2 -->
+
+	       <article class="d-flex flex-column flex-md-row-reverse bg-white p-3 rounded-3 align-items-center">
+					<img class="col-10 col-md-6" src="./pictures/work2.png" alt="placeholder-img" />
+					<div class="col-10 col-md-6 p-1">
+							<div class="d-flex flex-column gap-3 ms-2">
+						<h3>Tonic</h3>
+
+						<div class="d-flex gap-3">
+							<h4>Canopy</h4>
+							<h4 class="text-dark">
+								<span>●</span>
+
+								Back End Dev
+							</h4>
+
+							<h4 class="text-dark">
+								<span>●</span>
+
+								2015
+							</h4>
+						</div>
+
+						<p>
+							A daily selection of privately personalized reads; no accounts or
+							sign-ups required.
+						</p>
+
+						<ul class="d-flex gap-2 list-unstyled">
+							<li class="bg-light">HTML</li>
+							<li class="bg-light">CSS</li>
+							<li class="bg-light">JavaScript</li>
+						</ul>
+						<a href="/" class="btn bg-white text-primary border-primary link"> See project </a>
+					</div>
+					</div>
+				
+				</article>
+
+				<!-- Card 3 -->
+        <article class="d-flex flex-column flex-md-row bg-white p-3 rounded-3 align-items-center">
+					<img class="col-10 col-md-6" src="./pictures/work3.png" alt="placeholder-img" />
+					<div class="col-10 col-md-6">
+							<div class="d-flex flex-column gap-3 p-3">
+						<h3>Tonic</h3>
+
+						<div class="d-flex gap-3">
+							<h4>Canopy</h4>
+							<h4 class="text-dark">
+								<span>●</span>
+
+								Back End Dev
+							</h4>
+
+							<h4 class="text-dark">
+								<span>●</span>
+
+								2015
+							</h4>
+						</div>
+
+						<p>
+							A daily selection of privately personalized reads; no accounts or
+							sign-ups required.
+						</p>
+
+						<ul class="d-flex gap-2 list-unstyled">
+							<li class="bg-light"">HTML</li>
+							<li class="bg-light"">CSS</li>
+							<li class="bg-light"">JavaScript</li>
+						</ul>
+						<a href="/" class="btn bg-white text-primary border-primary link"> See project </a>
+					</div>
+					</div>
+				
+				</article>
+
+				<!-- Card 4 -->
+
+		     <article class="d-flex flex-column flex-md-row-reverse bg-white rounded-3 align-items-center">
+					<img class="col-10 col-md-6" src="./pictures/work4.png" alt="placeholder-img" />
+					<div class="col-10 col-md-6">
+							<div class="d-flex flex-column gap-3 p-3">
+						<h3>Tonic</h3>
+
+						<div class="d-flex gap-3">
+							<h4>Canopy</h4>
+							<h4 class="text-dark">
+								<span>●</span>
+
+								Back End Dev
+							</h4>
+
+							<h4 class="text-dark">
+								<span>●</span>
+
+								2015
+							</h4>
+						</div>
+
+						<p>
+							A daily selection of privately personalized reads; no accounts or
+							sign-ups required.
+						</p>
+
+						<ul class="d-flex gap-2 list-unstyled">
+							<li class="bg-light">HTML</li>
+							<li class="bg-light">CSS</li>
+							<li class="bg-light">JavaScript</li>
+						</ul>
+						<a href="/" class="btn bg-white text-primary border-primary link"> See project </a>
+					</div>
+					</div>
+				
+				</article>
+			</section>
+
+			<!-- About Section -->
+
+			<section class="bg-white w-100 pt-5 pb-5 mb-5" >
+        <div class="d-flex flex-column flex-md-row p-5 justify-content-center align-items-center" id="about">
+          <div class="col-10 col-md-6 mb-5">
+            <h2>About Myself</h2>
+  
+            <p class="text-wrap" >
+              I'm a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you like
+              what you see and have a project you need coded, don't hesitate to
+              contact me.
+            </p>
+  
+            <p>Let's connect</p>
+  
+            <ul class="d-flex gap-3 list-unstyled">
+              <li>
+                <a href="https://github.com">
+                  <img src="./pictures/github.svg" alt="GitHub" />
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://www.linkedin.com">
+                  <img src="./pictures/linkedin.svg" alt="LinkedIn" />
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://www.angellist.com/">
+                  <img src="./pictures/angellist.svg" alt="AngelList" />
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://twitter.com">
+                  <img src="./pictures/twitter.svg" alt="Twitter" />
+                </a>
+              </li>
+  
+              <li>
+                <a href="https://medium.com/">
+                  <img src="./pictures/medium.svg" alt="Medium" />
+                </a>
+              </li>
+            </ul>
+  
+            <a href="#" download="" class="btn bg-white text-primary border-primary">
+              Get my Resume
+            </a>
+          </div>
+  
+          <div class="col-10 col-md-6">
+  
+            <span>
+              <h3>Languages</h3>
+              <a href="#accordion"></a>
+            </span>
+  
+            <ul class="d-flex gap-3 text-center ps-0 list-unstyled">
+              <li class="py-2 px-3 bg-light rounded d-flex flex-column gap-2">
+                <img src="./pictures/JavaScript-icon.svg" alt="Javascript"/>
+  
+                <p class="mb-0">JavaScript</p>
+              </li>
+  
+              <li class="py-2 px-3 bg-light rounded d-flex flex-column gap-2">
+                <img src="./pictures/HTML-icon.svg" alt="HTML" />
+  
+                <p class="mb-0">HTML</p>
+              </li>
+  
+              <li class="py-2 px-3 bg-light rounded d-flex flex-column gap-2">
+                <img src="./pictures/CSS-icon.svg" alt="CSS" />
+  
+                <p class="mb-0">CSS</p>
+              </li>
+            </ul>
+  
+            <span>
+              <h3>Frameworks</h3>
+              <a href="#accordion"></a>
+            </span>
+  
+            <span>
+              <h3>Skills</h3>
+              <a href="#accordion"></a>
+            </span>
+          </div>
+        </div>
+			</section>
+		</main>
+
+		<!-- Footer - Contact Section -->
+
+		<footer class="d-flex flex-column gap-3 align-items-center pt-5 pb-5 bg-primary" id="contact">
+			<div class="d-flex flex-column gap-3 text-white">
+				<h2 class="text-center">Contact me</h2>
+
+				<p class="text-wrap des">
+					If you have an application you are interested in developing, a feature
+					that you need built or a project that needs coding. I'd love to help
+					with it!
+				</p>
+			</div>
+
+			<form class="d-flex flex-column gap-3 des"   action="https://formspree.io/f/mjvdadbe" method="POST">
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label" hidden>Name</label>
+            <input width="10rem" type="text" class="form-control" id="formGroupExampleInput" placeholder="Full name" required>
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label" hidden>Email</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email" required>
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2"  class="form-label" hidden>Message</label>
+            <textarea class="form-control"  id="formGroupExampleInput3" placeholder="Message" required></textarea>
+          </div>
+
+				<div class="d-flex justify-content-center">
+          <button class="btn bg-white text-primary"  type="submit">Get in touch</button>
+        </div>
+			</form>
+		</footer>
+	</body>
+</html>

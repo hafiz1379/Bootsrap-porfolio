@@ -1,0 +1,20 @@
+* {
+  scroll-behavior: smooth;
+}
+
+#about {
+  margin: auto;
+  display: flex;
+}
+
+.link {
+  width: 8rem;
+}
+
+.des {
+  width: 30rem;
+}
+
+#formGroupExampleInput3 {
+  height: 8rem;
+}
